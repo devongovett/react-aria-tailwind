@@ -1195,6 +1195,14 @@
     "@babel/runtime" "^7.6.2"
     "@react-types/shared" "^3.6.0"
 
+"@react-stately/data@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@react-stately/data/-/data-3.4.0.tgz#c7f4fdca3de1798207f02ad39671b733bee9e5e6"
+  integrity sha512-RIF2zD3xFU3KGd19M6/P8cbPjnGsZFSjodVzPj60zqK8ToiAarMqTMplc++c1KLoR+UMoJx4J489PORc2V0hMg==
+  dependencies:
+    "@babel/runtime" "^7.6.2"
+    "@react-types/shared" "^3.6.0"
+
 "@react-stately/list@^3.2.3":
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/@react-stately/list/-/list-3.2.3.tgz#08112fd7a2fe9f0ed6dee7bcafd442ea24607d2c"
@@ -5253,6 +5261,27 @@ react-refresh@^0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.9.0.tgz#71863337adc3e5c2f8a6bfddd12ae3bfe32aafbf"
   integrity sha512-Gvzk7OZpiqKSkxsQvO/mbTN1poglhmAV7gR/DdIrRrSMXraRQQlfikRJOr3Nb9GTMPC5kof948Zy6jJZIFtDvQ==
+
+react-stately@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/react-stately/-/react-stately-3.5.0.tgz#ebfdead7fe1265eb64ded134370fedfc6bc0e6b1"
+  integrity sha512-ffbSfr8ys/Uen+QYWihDYzjMzCKxJuCnvY7wnlu8dMwU2hClPBEdiSzQBRRm25LPNRx2HWvTY6ACvykNHaRUTg==
+  dependencies:
+    "@react-stately/checkbox" "^3.0.2"
+    "@react-stately/collections" "^3.3.2"
+    "@react-stately/data" "^3.4.0"
+    "@react-stately/list" "^3.2.3"
+    "@react-stately/menu" "^3.2.2"
+    "@react-stately/numberfield" "^3.0.0"
+    "@react-stately/overlays" "^3.1.2"
+    "@react-stately/radio" "^3.3.1"
+    "@react-stately/searchfield" "^3.1.2"
+    "@react-stately/select" "^3.1.2"
+    "@react-stately/selection" "^3.5.0"
+    "@react-stately/slider" "^3.0.2"
+    "@react-stately/toggle" "^3.2.2"
+    "@react-stately/tooltip" "^3.0.4"
+    "@react-stately/tree" "^3.1.4"
 
 react@^17.0.2:
   version "17.0.2"

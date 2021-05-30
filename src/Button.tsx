@@ -1,5 +1,5 @@
 import {useButton, useHover, useFocusRing, mergeProps} from 'react-aria';
-import {AriaButtonProps} from '@react-types/button';
+import {AriaButtonProps, AriaToggleButtonProps} from '@react-types/button';
 import React, {useRef} from 'react';
 import clsx from 'clsx';
 

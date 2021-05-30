@@ -14,7 +14,7 @@ export function ExampleButton(props: ExampleButtonProps) {
       defaultClassName="bg-blue-500"
       hoverClassName="bg-blue-600"
       activeClassName="bg-blue-700"
-      focusVisibleClassName="ring-4 ring-blue-400 ring-opacity-50"
+      focusVisibleClassName="ring ring-offset-2 ring-blue-400"
       disabledClassName="bg-gray-400">
       {children}
     </Button>
